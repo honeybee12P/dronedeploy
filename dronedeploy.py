@@ -74,7 +74,7 @@ class Camera(object):
 
 
 reference_image = cv2.imread('images/pattern.jpg', 0)  #pattern image
-main_image = cv2.imread('/Users/kruthikavishwanath/Desktop/dronedeploy/images/img7.JPG', 0)  #pattern on carpet
+main_image = cv2.imread('images/img7.JPG', 0)  #pattern on carpet
 
 
 

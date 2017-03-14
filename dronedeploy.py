@@ -8,8 +8,8 @@ from pylab import *
 #this function sets the camera (iphone6) parameters
 def camera_calibration(sizes):  
     row, col = sizes
-    x = 2555 * col / 2592
-    y = 2586 * row / 1936
+    x = 2555 * col / 2448
+    y = 2586 * row / 3264
     camera_parameters = np.diag([x, y, 1])
     camera_parameters[0, 2] = 0.5 * col
     camera_parameters[1, 2] = 0.5 * row

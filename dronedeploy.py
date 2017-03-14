@@ -134,7 +134,7 @@ else:
 ###########################################ESTIMATING THE POSE OF THE CAMERA AND DRAWING THE CAMERA(CUBE)###########################################
 
 #parameters of camera(iphone6) is set
-camera_parameters = camera_calibration((2448, 3256)) #747*1000 being the dimension of the main_image
+camera_parameters = camera_calibration((2448, 3264)) #2448*3264 being the dimension of the main_image
 
 #parameters (Length, breadth & height) of the cube (representing camera here) is set 
 box = cube_points([0, 0, 0.1], 0.1) 
